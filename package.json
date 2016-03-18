@@ -1,0 +1,20 @@
+{
+  "name": "stateful",
+  "version": "1.0.0",
+  "description": "Manage a state in a functional world",
+  "main": "src/stateful.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
